@@ -1,25 +1,21 @@
-# GigTracker
+# Conference Presentation Machine — Mac Setup
 
-Gig management PWA for freelance VJs, stage designers & creative professionals.
+ריפו של ה-Mac שמשמש כמחשב המצגות בכנס **2026-05-11**.
 
-## Features
-- Dashboard with monthly income/expenses
-- Gig management (CRUD)
-- Expense tracking
-- Calendar view
-- Dark theme, RTL Hebrew support
-- PWA installable
+ההוראות המלאות לקלוד נמצאות ב-[`CLAUDE.md`](./CLAUDE.md).
 
-## Setup
-```bash
-npm install
-npm run dev
-```
+## איך להשתמש
 
-Open http://localhost:3000
+1. שכפל את הריפו על ה-Mac:
+   ```bash
+   git clone -b claude/touchdesigner-ai-analyzer-R7mqg https://github.com/zuribar/gigtracker.git ~/Desktop/Conference_Setup
+   cd ~/Desktop/Conference_Setup
+   ```
+2. הפעל את Claude Code בתיקייה הזו — הוא יקרא אוטומטית את `CLAUDE.md` ויתחיל מבדיקת תקינות.
+3. עקוב אחרי השלבים: בדיקת תקינות → התקנות → הגדרות → צ'ק-ליסט.
 
-## Tech Stack
-- Next.js 16 + React 19
-- Tailwind CSS 4
-- TypeScript
-- localStorage (Supabase planned)
+## אירוע
+
+- **תאריך:** 2026-05-11
+- **תפקיד המחשב:** מריץ 12 מצגות (Keynote / PowerPoint / Canva / PDF)
+- **התחברות:** HDMI + NDI ל-Resolume של ה-VJ
