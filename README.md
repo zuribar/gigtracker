@@ -26,3 +26,15 @@
 - **תאריך:** 2026-05-11
 - **תפקיד המחשב:** מריץ 12 מצגות (Keynote / PowerPoint / Canva / PDF)
 - **התחברות:** HDMI + NDI ל-Resolume של ה-VJ
+
+---
+
+## TouchDesigner Tutorials (פירוקים)
+
+ניתוחים מפורטים של טוטוריאלים, עם הוראות בנייה ידנית **ו**פרומפטים מוכנים ל-TWOZERO MCP:
+
+- [`tutorials/quad-reprojection/`](./tutorials/quad-reprojection/) — QuadReprojection / Anamorphosis
+  - `README.md` — מבנה הנטוורק, פרמטרים, troubleshooting
+  - `twozero-setup.md` — איך מתקינים את TWOZERO MCP
+  - `twozero-prompts.md` — פרומפטים מוכנים לבנייה אוטומטית
+  - `build_quad_reproject.py` — סקריפט Python שבונה את הרשת אם אין MCP
